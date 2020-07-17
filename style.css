@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Indie Flower', cursive;
+}
+
+.keys{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: space-around;
+  background: url("matthijs-smit-bRG2C0FAQEY-unsplash\ \(1\).jpg");
+}
+
+.key{
+  width: 80px;
+  background-color: rgba(160, 3, 3, 0.671);
+  color: #ffc600;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.10s;
+}
+
+.playing{
+  transform: scale(1.1);
+  border: 1px solid rgba(255, 0, 0, 0.623);
+  box-shadow: 0 0 15px red;
+}
+
+kbd{
+  font-family: 'Indie Flower', cursive;
+  display: block;
+  font-size: 30px;
+  color: #ffffff;
+}
